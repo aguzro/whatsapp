@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Whatsapp Web</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="image/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/queries.css">
+  </head>
+  <body>
+    <header>
+      <div class="container bg-w">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="owner">
+              <div class="foto-perfil">
+                <img src="img/naty.jpg">
+              </div>
+              <span class="icon-message"></span>
+              <span class="icon-dots-three-vertical owner-dots"></span>
+              </div>
+            </div>
+          <div class="col-md-8">
+            <div class="conversacion">
+              <div class="conversacion-chat">
+                <div class="btn-group">
+                <a id="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="icon-attachment"></span>
+                </a>
+                <ul id="button-element" class="dropdown-menu drop-multimedia">
+                  <img src="img/multimedia.png" class="menu-multimedia">
+                </ul>
+              </div>
+              <div class="btn-group">
+                <a id="button" class="btn dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="icon-dots-three-vertical convo-dots"></span>
+                </a>
+                <ul id="button-element" class="dropdown-menu drop-opciones-ul">
+                  <li class="drop-opciones"><a href="#">Info. del contacto</a></li>
+                  <li class="drop-opciones"><a href="#">Seleccionar mensajes</a></li>
+                  <li class="drop-opciones"><a href="#">Silenciar</a></li>
+                  <li class="drop-opciones"><a href="#">Eliminar mensajes</a></li>
+                  <li class="drop-opciones"><a href="#">Eliminar chat</a></li>                
+                </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container bg-w">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="col-md-12 nuevo-chat">
+              <span class="icon-search"></span>
+              <input type="text" id="buscarChat" placeholder="Buscar o empezar un chat nuevo">
+            </div>
+            <div class="col-md-12 contacts scroll">
+              <ul></ul>
+            </div>
+          </div>
+          <div class="col-md-8 mensajes-section">
+            <div class="col-md-12 convo-section"></div>
+            <div class="col-md-12 typing-section">
+              <span class="icon-insert_emoticon"></span>
+              <input id="mensajeNuevo" type="text" placeholder="Escribe tu mensaje aquí">
+              <span class="icon-mic"></span>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </header>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+     <script type="text/javascript"src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    </script>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

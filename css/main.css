@@ -1,0 +1,245 @@
+body {
+  background-color: #cdcdcd;
+  font-family: "Roboto", sans-serif; }
+
+header {
+  padding: 3%;
+  height: 130px;
+  background-color: #009688; }
+
+.foto-perfil img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px; }
+
+.profile-hora {
+  float: right;
+  font-size: 12px;
+  margin-right: 5%;
+  color: #35cd96; }
+
+.owner,
+.conversacion {
+  background-color: #eee; }
+
+.col-md-4 {
+  margin: 0;
+  padding: 0; }
+  .col-md-4 .col-md-8 {
+    margin: 0;
+    padding: 0; }
+
+.owner {
+  padding: 11.5px 20px; }
+
+span {
+  color: #7f7f7f;
+  font-size: 21px; }
+
+.icon-message {
+  float: right;
+  margin-right: 15%;
+  margin-top: -10%; }
+
+.owner-dots {
+  float: right;
+  margin-top: -10%; }
+
+.conversacion {
+  padding: 5px 10px 0 0;
+  height: 63px; }
+
+.conversacion-chat {
+  margin-top: 10px; }
+
+.conversacion-chat h4 {
+  margin-bottom: 0; }
+
+.conversacion h4 {
+  margin-left: 7%;
+  margin-top: -5%;
+  font-size: 18px; }
+
+.conversacion h5 {
+  margin-left: 7%;
+  margin-top: -1%;
+  font-size: 13px;
+  margin-bottom: 0.5%; }
+
+.icon-attachment {
+  float: right;
+  margin-top: -10px; }
+
+.convo-dots {
+  float: right;
+  margin-right: 10px;
+  margin-top: -10px; }
+
+.nuevo-chat {
+  position: relative;
+  padding: 4%;
+  border-bottom: 2px solid #F5F5F5; }
+
+.nuevo-chat span {
+  position: absolute;
+  top: 39%;
+  left: 8%;
+  font-size: 16px; }
+
+.nuevo-chat,
+.contact {
+  background-color: #fefefe; }
+
+.nuevo-chat input {
+  padding: 10px 20px 10px 35px;
+  border-radius: 5px;
+  border-style: none;
+  width: 100%;
+  border: 2px solid #CBCBCB; }
+
+.contacts {
+  border-bottom: 2px solid #CBCBCB;
+  max-height: 540px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.contacts h4 {
+  font-size: 15px;
+  margin-left: 13%;
+  margin-top: -10%;
+  color: #050505; }
+
+.contacts h5 {
+  font-size: 12px;
+  color: #7f7f7f;
+  margin-left: 13%;
+  margin-top: -1%;
+  margin-bottom: 1%; }
+
+.contacts li {
+  display: block;
+  padding: 10px; }
+  .contacts li.contacts li a {
+    display: block;
+    padding: 10px; }
+    .contacts li.contacts li a.contacts li a.contacts:hover {
+      background: #F5F5F5;
+      text-decoration: none; }
+
+.mensajes-section {
+  position: relative; }
+
+.convo-section {
+  padding: 5px 10px 60px 0;
+  background-color: #EDEAE5;
+  background-image: url("../img/4e765036-1639-11e6-9201-67e728e86f39.jpg");
+  height: 573px;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+
+.bubble-grupal {
+  border-radius: 6px;
+  margin-bottom: 5px;
+  background-color: #fefefe;
+  padding: 1px 10px;
+  margin-top: 8px;
+}
+
+.bubble {
+  border-radius: 6px;
+  margin-bottom: 5px;
+  background-color: #fefefe;
+  padding: 1px 10px;
+  margin-top: 8px;
+}
+
+.bubble h5 {
+  margin-bottom: -2.5%; }
+
+.bubble h5 span {
+  font-size: 14px; }
+
+.bubble h6 {
+  text-align: right; }
+
+.mybubble {
+  text-align: right;
+  background-color: #DCF7C5;
+  width: auto;
+  border-radius: 6px;
+  padding: 0.1% 1% 0%;
+  margin-bottom: 5px;
+  float: right;
+  max-width: 500px; }
+
+.mybubble h5 {
+  width: auto;
+  word-wrap: break-word; }
+
+.typing-section {
+  padding: 0.7%;
+  border: 1px solid #7f7f7f;
+  width: 100%;
+  background-color: #7f7f7f;
+  bottom: 0; }
+
+.typing-section span {
+  color: #7f7f7f;
+  font-size: 23px;
+  margin: 1%; }
+
+.typing-section input {
+  width: 88%;
+  padding: 1%;
+  border-radius: 4px;
+  border-style: none; }
+
+.celeste {
+  color: #5AB1D6; }
+
+.morado {
+  color: #9E155F; }
+
+.verde {
+  color: #35cd96; }
+
+.amarillo {
+  color: #dfb610; }
+
+.emojis {
+  border: 1px solid transparent;
+  padding-left: 10px;
+  margin: 2px;
+  background-color: #FFF;
+  border-radius: 5px;
+  margin-top: 0px; }
+
+.emoji-prop {
+  width: 5%;
+  height: 5%; }
+
+#botonEmoji {
+  border: 1px solid transparent;
+  background-color: #F2F0EE; }
+
+#botonEmoji:active {
+  border: 1px solid transparent; }
+
+.scroll {
+  overflow: auto;
+}
+.bg-w {
+  background-color: #eee !important;
+}
+#button {
+  float: left;
+  left: 630px;
+}
+
+#button-element {
+  float: left;
+  left: 600px;
+}
